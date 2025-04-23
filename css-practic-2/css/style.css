@@ -1,0 +1,183 @@
+* {
+    font-family: 'Gilroy';
+    color: #3A3845;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 134px;
+}
+
+.nav__menu-left {
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-family: 'Gilroy';
+
+}
+
+.nav-right {
+    display: flex;
+}
+
+.my-input {
+    display: flex;
+    align-items: center;
+    width: 279px;
+    height: 44px;
+    border-radius: 10px;
+    padding-left: 45px; 
+    background: url('../img/Search-input.png') no-repeat;
+
+
+    
+}
+
+.nav__icons-right {
+    display: flex;
+    gap: 18px;
+    padding-left: 67.5px;
+    align-items: center;
+}
+
+.catalog-menu {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+
+.main__view-img {
+    border-radius: 10px;
+}
+
+
+.catalog-mini {
+    display: flex;
+    padding-top: 24px;
+    gap: 9px;
+}
+
+.product-container {
+    display: flex;
+    gap: 20px;
+}
+
+.main-text {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 24px;
+}
+
+.price {
+    padding-top: 24px;
+}
+
+.colors {
+    display: flex;
+    padding-top: 24px;
+    flex-direction: column;
+}
+
+.colors-box {
+    padding-top: 8px;
+}
+
+.btn {
+    display: flex;
+    padding-top: 24px;
+    gap: 20px;
+}
+
+.btn-add {
+    width: 386px;
+    height: 48px;
+    background-color: #3A3845;
+    
+    
+}
+
+.btn-text {
+    color: white;
+    
+}
+.btn-like {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+.shares-img {
+    padding-left: 36px;
+}
+.scroll-menu {
+
+    padding-top: 40px;
+  
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 20px;
+    border-bottom: 1px solid #eee;
+    transition: background 0.2s;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-item:hover {
+    background: #f8f8f8;
+    cursor: pointer;
+}
+
+.scroll-text {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.plus {
+    font-weight: 600;
+    font-size: 20px;
+}
