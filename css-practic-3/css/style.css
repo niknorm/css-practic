@@ -1,0 +1,102 @@
+body {
+    background-color: #282828;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-weight: ;
+}
+
+@media (max-width: 768px) {
+    .modal {
+        max-width: 343px;
+        height: 288px;
+        
+    }
+}
+    .buttons {
+        gap: 10px;
+
+    }
+    .button-cancel {
+        width: 139.5px;
+        height: 52px;
+    }
+    .button-proceed {
+        width: 139.5px;
+        height: 52px;
+    }
+    .small-text {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.modal {
+    display: flex;
+    width: 470px;
+    /* height: 282px; */
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 26px;
+    
+}
+
+.icon {
+    padding-top: 32px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-text {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.small-text {
+    text-align: center;
+    font-weight: 400;
+    color: #5F6980;
+}
+
+button {
+    width: 187px;
+    height: 52px;
+    border-radius: 7px;
+    
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    
+}
+
+.button-cancel {
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5F6980;
+    
+}
+
+.button-proceed {
+    background-color: #FD7E14;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
