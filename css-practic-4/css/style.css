@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .main-info {
+        display: none;
+    }
+    
+    .tablet-logo {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 120px;
+        z-index: 10;
+
+    }
+    .register {
+        padding-right: 150px;
+        position: relative;
+        
+
+    }
+}
+
+@media (max-width: 599px) {
+    .main-info {
+        display: none;
+    }
+
+    .register {
+        padding-right: 80px;
+    }
+}
+
+.tablet-logo {
+    display: none;
+}
+
+
+.container {
+   margin: 0 auto;
+   max-width: 396px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.main-info {
+    width: 607px;
+    height: 1080px;
+    background-color: #070E38;
+    
+}
+
+.logo {
+    padding-top: 70px;
+   
+}
+
+.text-info {
+    padding-top: 550px;
+    color: white;
+    font-size: 15px;   
+}
+
+.icon {
+    padding-right: 10px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+.register {
+    width: 100%; 
+    padding-top: 70px; 
+}
+
+h1 {
+    padding-left: 120px;
+}
+
+.field {
+    width: 408px;
+    height: 48px;
+    border-radius: 30px;
+    padding-left: 30px;
+    border: 1px solid #e0e0e0;
+}
+
+.button {
+    padding-top: 30px;
+}
+
+.button-registration {
+    width: 443px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #FF941A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-registration:hover {
+    background-color: #45a049;
+}
+
+.sign-up {
+    padding-left: 20px;
+    padding-top: 60px;
+}
+
+.button-submit {
+    width: 408px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
