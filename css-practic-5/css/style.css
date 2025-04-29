@@ -1,0 +1,102 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #151D48;
+}
+
+.main__container {
+    display: flex;
+}
+
+
+.container-sidemenu {
+    width: 345px;
+    height: 100vh;
+    padding-left: 46px;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    gap: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #737791;
+}
+
+.list__sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 50.5px;
+    padding-top: 55px;
+    
+}
+.list__sidebar li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sidebar__menu {
+    display: flex;
+    align-items: center;
+}
+
+.card__get-pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 238px;
+    height: 289px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: #5D5FEF;
+    color: #FFFFFF;
+    margin-top: 136px;
+}
+
+.logo-card {
+    padding-top: 31px;
+}
+
+.button__getpro {
+    width: 136px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
+
+.header {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header__title {
+    display: flex;
+}
+
+.Search {
+    width: 513px;
+    height: 60px;
+    border: none;
+    background-color: #F9FAFB;
+    border-radius: 15px;
+}
+
+
+.user__account {
+    display: flex;
+    gap: 50px;
+}
